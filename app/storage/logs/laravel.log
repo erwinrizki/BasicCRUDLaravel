@@ -1,0 +1,1757 @@
+[2014-09-25 06:14:22] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'return' (T_RETURN), expecting '&' or variable (T_VARIABLE)' in C:\websites\laravel\app\routes.php:23
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-09-25 06:14:47] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'return' (T_RETURN), expecting '&' or variable (T_VARIABLE)' in C:\websites\laravel\app\routes.php:23
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-09-25 06:17:30] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'return' (T_RETURN), expecting '&' or variable (T_VARIABLE)' in C:\websites\laravel\app\routes.php:23
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-09-25 06:18:52] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-09-25 06:19:51] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '}', expecting ',' or ';'' in C:\websites\laravel\app\storage\views\3d18fa1345502394079e23bffb31c0d9:33
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-09-25 06:20:22] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-09-25 06:26:38] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-09-25 06:32:26] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-09-25 06:38:59] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-09-25 06:39:21] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-09-25 06:49:40] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-09-25 06:50:38] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-09-25 06:53:20] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-09-25 06:54:36] production.ERROR: exception 'ErrorException' with message 'Undefined variable: message' in C:\websites\laravel\app\storage\views\3d18fa1345502394079e23bffb31c0d9:11
+Stack trace:
+#0 C:\websites\laravel\app\storage\views\3d18fa1345502394079e23bffb31c0d9(11): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', 'C:\\websites\\lar...', 11, Array)
+#1 C:\websites\laravel\bootstrap\compiled.php(9798): include('C:\\websites\\lar...')
+#2 C:\websites\laravel\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\websites\\lar...', Array)
+#3 C:\websites\laravel\bootstrap\compiled.php(9676): Illuminate\View\Engines\CompilerEngine->get('C:\\websites\\lar...', Array)
+#4 C:\websites\laravel\bootstrap\compiled.php(9663): Illuminate\View\View->getContents()
+#5 C:\websites\laravel\bootstrap\compiled.php(9654): Illuminate\View\View->renderContents()
+#6 C:\websites\laravel\bootstrap\compiled.php(10355): Illuminate\View\View->render()
+#7 C:\websites\laravel\bootstrap\compiled.php(9886): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#8 C:\websites\laravel\bootstrap\compiled.php(5205): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#9 C:\websites\laravel\bootstrap\compiled.php(5013): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#10 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#11 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#12 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#13 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#14 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#15 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#16 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#17 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#18 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#19 {main}
+
+Next exception 'ErrorException' with message 'Undefined variable: message (View: C:\websites\laravel\app\views\newbook.blade.php)' in C:\websites\laravel\app\storage\views\3d18fa1345502394079e23bffb31c0d9:11
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(9800): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(ErrorException), 1)
+#1 C:\websites\laravel\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\websites\\lar...', Array)
+#2 C:\websites\laravel\bootstrap\compiled.php(9676): Illuminate\View\Engines\CompilerEngine->get('C:\\websites\\lar...', Array)
+#3 C:\websites\laravel\bootstrap\compiled.php(9663): Illuminate\View\View->getContents()
+#4 C:\websites\laravel\bootstrap\compiled.php(9654): Illuminate\View\View->renderContents()
+#5 C:\websites\laravel\bootstrap\compiled.php(10355): Illuminate\View\View->render()
+#6 C:\websites\laravel\bootstrap\compiled.php(9886): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 C:\websites\laravel\bootstrap\compiled.php(5205): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 C:\websites\laravel\bootstrap\compiled.php(5013): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#9 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-09-25 06:55:42] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-09-25 06:57:20] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-09-25 06:58:33] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-09-25 06:58:43] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-09-25 07:09:54] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-09-25 07:10:56] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-09-25 07:12:11] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-09-26 10:03:10] production.ERROR: exception 'InvalidArgumentException' with message 'Route [BookController@edit] not defined.' in C:\websites\laravel\bootstrap\compiled.php:5942
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(6027): Illuminate\Routing\UrlGenerator->route('BookController@...', Array, true, NULL)
+#1 C:\websites\laravel\vendor\laravel\framework\src\Illuminate\Html\HtmlBuilder.php(185): Illuminate\Routing\UrlGenerator->action('BookController@...', Array)
+#2 C:\websites\laravel\vendor\laravel\framework\src\Illuminate\Support\helpers.php(625): Illuminate\Html\HtmlBuilder->linkAction('BookController@...', 'Edit', Array, Array)
+#3 C:\websites\laravel\app\storage\views\b72aea3f3d140228099b617cf3718bbf(20): link_to_action('BookController@...', 'Edit', Array)
+#4 C:\websites\laravel\bootstrap\compiled.php(9798): include('C:\\websites\\lar...')
+#5 C:\websites\laravel\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\websites\\lar...', Array)
+#6 C:\websites\laravel\bootstrap\compiled.php(9676): Illuminate\View\Engines\CompilerEngine->get('C:\\websites\\lar...', Array)
+#7 C:\websites\laravel\bootstrap\compiled.php(9663): Illuminate\View\View->getContents()
+#8 C:\websites\laravel\bootstrap\compiled.php(9654): Illuminate\View\View->renderContents()
+#9 C:\websites\laravel\bootstrap\compiled.php(10355): Illuminate\View\View->render()
+#10 C:\websites\laravel\bootstrap\compiled.php(9886): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#11 C:\websites\laravel\bootstrap\compiled.php(5205): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#12 C:\websites\laravel\bootstrap\compiled.php(5013): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#13 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#14 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#15 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#16 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#17 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#18 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#19 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#20 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#21 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#22 {main}
+
+Next exception 'ErrorException' with message 'Route [BookController@edit] not defined. (View: C:\websites\laravel\app\views\listbook.blade.php)' in C:\websites\laravel\bootstrap\compiled.php:5942
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(9800): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(InvalidArgumentException), 1)
+#1 C:\websites\laravel\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\websites\\lar...', Array)
+#2 C:\websites\laravel\bootstrap\compiled.php(9676): Illuminate\View\Engines\CompilerEngine->get('C:\\websites\\lar...', Array)
+#3 C:\websites\laravel\bootstrap\compiled.php(9663): Illuminate\View\View->getContents()
+#4 C:\websites\laravel\bootstrap\compiled.php(9654): Illuminate\View\View->renderContents()
+#5 C:\websites\laravel\bootstrap\compiled.php(10355): Illuminate\View\View->render()
+#6 C:\websites\laravel\bootstrap\compiled.php(9886): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 C:\websites\laravel\bootstrap\compiled.php(5205): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 C:\websites\laravel\bootstrap\compiled.php(5013): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#9 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-09-26 10:05:49] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-09-26 10:17:34] production.ERROR: exception 'InvalidArgumentException' with message 'View [editbook] not found.' in C:\websites\laravel\bootstrap\compiled.php:9429
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(9402): Illuminate\View\FileViewFinder->findInPaths('editbook', Array)
+#1 C:\websites\laravel\vendor\laravel\framework\src\Illuminate\View\Factory.php(124): Illuminate\View\FileViewFinder->find('editbook')
+#2 C:\websites\laravel\bootstrap\compiled.php(3243): Illuminate\View\Factory->make('editbook')
+#3 C:\websites\laravel\app\controllers\BookController.php(19): Illuminate\Support\Facades\Facade::__callStatic('make', Array)
+#4 C:\websites\laravel\app\controllers\BookController.php(19): Illuminate\Support\Facades\View::make('editbook')
+#5 [internal function]: BookController->edit('1')
+#6 C:\websites\laravel\vendor\laravel\framework\src\Illuminate\Routing\Controller.php(231): call_user_func_array(Array, Array)
+#7 C:\websites\laravel\bootstrap\compiled.php(5799): Illuminate\Routing\Controller->callAction('edit', Array)
+#8 C:\websites\laravel\bootstrap\compiled.php(5787): Illuminate\Routing\ControllerDispatcher->call(Object(BookController), Object(Illuminate\Routing\Route), 'edit')
+#9 C:\websites\laravel\bootstrap\compiled.php(4986): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'BookController', 'edit')
+#10 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('1')
+#11 C:\websites\laravel\bootstrap\compiled.php(5345): call_user_func_array(Object(Closure), Array)
+#12 C:\websites\laravel\bootstrap\compiled.php(5011): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#13 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#14 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#15 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#16 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#17 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#18 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#19 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#20 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#21 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#22 {main} [] []
+[2014-09-26 10:18:25] production.ERROR: exception 'InvalidArgumentException' with message 'Route [BookController@update] not defined.' in C:\websites\laravel\bootstrap\compiled.php:5942
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(6027): Illuminate\Routing\UrlGenerator->route('BookController@...', Array, true, NULL)
+#1 C:\websites\laravel\vendor\laravel\framework\src\Illuminate\Html\FormBuilder.php(820): Illuminate\Routing\UrlGenerator->action('BookController@...')
+#2 C:\websites\laravel\vendor\laravel\framework\src\Illuminate\Html\FormBuilder.php(769): Illuminate\Html\FormBuilder->getControllerAction('BookController@...')
+#3 C:\websites\laravel\vendor\laravel\framework\src\Illuminate\Html\FormBuilder.php(104): Illuminate\Html\FormBuilder->getAction(Array)
+#4 C:\websites\laravel\bootstrap\compiled.php(3243): Illuminate\Html\FormBuilder->open(Array)
+#5 C:\websites\laravel\app\storage\views\9b310a75ae84f649248880b5386fca41(8): Illuminate\Support\Facades\Facade::__callStatic('open', Array)
+#6 C:\websites\laravel\app\storage\views\9b310a75ae84f649248880b5386fca41(8): Illuminate\Support\Facades\Form::open(Array)
+#7 C:\websites\laravel\bootstrap\compiled.php(9798): include('C:\\websites\\lar...')
+#8 C:\websites\laravel\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\websites\\lar...', Array)
+#9 C:\websites\laravel\bootstrap\compiled.php(9676): Illuminate\View\Engines\CompilerEngine->get('C:\\websites\\lar...', Array)
+#10 C:\websites\laravel\bootstrap\compiled.php(9663): Illuminate\View\View->getContents()
+#11 C:\websites\laravel\bootstrap\compiled.php(9654): Illuminate\View\View->renderContents()
+#12 C:\websites\laravel\bootstrap\compiled.php(10355): Illuminate\View\View->render()
+#13 C:\websites\laravel\bootstrap\compiled.php(9886): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#14 C:\websites\laravel\bootstrap\compiled.php(5205): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#15 C:\websites\laravel\bootstrap\compiled.php(5013): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#16 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#17 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#18 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#19 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#20 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#21 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#22 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#23 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#24 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#25 {main}
+
+Next exception 'ErrorException' with message 'Route [BookController@update] not defined. (View: C:\websites\laravel\app\views\editbook.blade.php)' in C:\websites\laravel\bootstrap\compiled.php:5942
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(9800): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(InvalidArgumentException), 1)
+#1 C:\websites\laravel\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\websites\\lar...', Array)
+#2 C:\websites\laravel\bootstrap\compiled.php(9676): Illuminate\View\Engines\CompilerEngine->get('C:\\websites\\lar...', Array)
+#3 C:\websites\laravel\bootstrap\compiled.php(9663): Illuminate\View\View->getContents()
+#4 C:\websites\laravel\bootstrap\compiled.php(9654): Illuminate\View\View->renderContents()
+#5 C:\websites\laravel\bootstrap\compiled.php(10355): Illuminate\View\View->render()
+#6 C:\websites\laravel\bootstrap\compiled.php(9886): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 C:\websites\laravel\bootstrap\compiled.php(5205): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 C:\websites\laravel\bootstrap\compiled.php(5013): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#9 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-09-26 10:18:32] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-09-26 10:18:35] production.ERROR: exception 'InvalidArgumentException' with message 'Route [BookController@update] not defined.' in C:\websites\laravel\bootstrap\compiled.php:5942
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(6027): Illuminate\Routing\UrlGenerator->route('BookController@...', Array, true, NULL)
+#1 C:\websites\laravel\vendor\laravel\framework\src\Illuminate\Html\FormBuilder.php(820): Illuminate\Routing\UrlGenerator->action('BookController@...')
+#2 C:\websites\laravel\vendor\laravel\framework\src\Illuminate\Html\FormBuilder.php(769): Illuminate\Html\FormBuilder->getControllerAction('BookController@...')
+#3 C:\websites\laravel\vendor\laravel\framework\src\Illuminate\Html\FormBuilder.php(104): Illuminate\Html\FormBuilder->getAction(Array)
+#4 C:\websites\laravel\bootstrap\compiled.php(3243): Illuminate\Html\FormBuilder->open(Array)
+#5 C:\websites\laravel\app\storage\views\9b310a75ae84f649248880b5386fca41(8): Illuminate\Support\Facades\Facade::__callStatic('open', Array)
+#6 C:\websites\laravel\app\storage\views\9b310a75ae84f649248880b5386fca41(8): Illuminate\Support\Facades\Form::open(Array)
+#7 C:\websites\laravel\bootstrap\compiled.php(9798): include('C:\\websites\\lar...')
+#8 C:\websites\laravel\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\websites\\lar...', Array)
+#9 C:\websites\laravel\bootstrap\compiled.php(9676): Illuminate\View\Engines\CompilerEngine->get('C:\\websites\\lar...', Array)
+#10 C:\websites\laravel\bootstrap\compiled.php(9663): Illuminate\View\View->getContents()
+#11 C:\websites\laravel\bootstrap\compiled.php(9654): Illuminate\View\View->renderContents()
+#12 C:\websites\laravel\bootstrap\compiled.php(10355): Illuminate\View\View->render()
+#13 C:\websites\laravel\bootstrap\compiled.php(9886): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#14 C:\websites\laravel\bootstrap\compiled.php(5205): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#15 C:\websites\laravel\bootstrap\compiled.php(5013): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#16 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#17 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#18 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#19 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#20 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#21 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#22 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#23 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#24 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#25 {main}
+
+Next exception 'ErrorException' with message 'Route [BookController@update] not defined. (View: C:\websites\laravel\app\views\editbook.blade.php)' in C:\websites\laravel\bootstrap\compiled.php:5942
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(9800): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(InvalidArgumentException), 1)
+#1 C:\websites\laravel\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\websites\\lar...', Array)
+#2 C:\websites\laravel\bootstrap\compiled.php(9676): Illuminate\View\Engines\CompilerEngine->get('C:\\websites\\lar...', Array)
+#3 C:\websites\laravel\bootstrap\compiled.php(9663): Illuminate\View\View->getContents()
+#4 C:\websites\laravel\bootstrap\compiled.php(9654): Illuminate\View\View->renderContents()
+#5 C:\websites\laravel\bootstrap\compiled.php(10355): Illuminate\View\View->render()
+#6 C:\websites\laravel\bootstrap\compiled.php(9886): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 C:\websites\laravel\bootstrap\compiled.php(5205): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 C:\websites\laravel\bootstrap\compiled.php(5013): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#9 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-09-26 10:20:03] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-09-26 10:21:08] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-09-26 10:21:13] production.ERROR: exception 'InvalidArgumentException' with message 'Route [BookController@update] not defined.' in C:\websites\laravel\bootstrap\compiled.php:5942
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(6027): Illuminate\Routing\UrlGenerator->route('BookController@...', Array, true, NULL)
+#1 C:\websites\laravel\vendor\laravel\framework\src\Illuminate\Html\FormBuilder.php(820): Illuminate\Routing\UrlGenerator->action('BookController@...')
+#2 C:\websites\laravel\vendor\laravel\framework\src\Illuminate\Html\FormBuilder.php(769): Illuminate\Html\FormBuilder->getControllerAction('BookController@...')
+#3 C:\websites\laravel\vendor\laravel\framework\src\Illuminate\Html\FormBuilder.php(104): Illuminate\Html\FormBuilder->getAction(Array)
+#4 C:\websites\laravel\bootstrap\compiled.php(3243): Illuminate\Html\FormBuilder->open(Array)
+#5 C:\websites\laravel\app\storage\views\9b310a75ae84f649248880b5386fca41(8): Illuminate\Support\Facades\Facade::__callStatic('open', Array)
+#6 C:\websites\laravel\app\storage\views\9b310a75ae84f649248880b5386fca41(8): Illuminate\Support\Facades\Form::open(Array)
+#7 C:\websites\laravel\bootstrap\compiled.php(9798): include('C:\\websites\\lar...')
+#8 C:\websites\laravel\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\websites\\lar...', Array)
+#9 C:\websites\laravel\bootstrap\compiled.php(9676): Illuminate\View\Engines\CompilerEngine->get('C:\\websites\\lar...', Array)
+#10 C:\websites\laravel\bootstrap\compiled.php(9663): Illuminate\View\View->getContents()
+#11 C:\websites\laravel\bootstrap\compiled.php(9654): Illuminate\View\View->renderContents()
+#12 C:\websites\laravel\bootstrap\compiled.php(10355): Illuminate\View\View->render()
+#13 C:\websites\laravel\bootstrap\compiled.php(9886): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#14 C:\websites\laravel\bootstrap\compiled.php(5205): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#15 C:\websites\laravel\bootstrap\compiled.php(5013): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#16 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#17 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#18 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#19 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#20 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#21 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#22 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#23 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#24 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#25 {main}
+
+Next exception 'ErrorException' with message 'Route [BookController@update] not defined. (View: C:\websites\laravel\app\views\editbook.blade.php)' in C:\websites\laravel\bootstrap\compiled.php:5942
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(9800): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(InvalidArgumentException), 1)
+#1 C:\websites\laravel\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\websites\\lar...', Array)
+#2 C:\websites\laravel\bootstrap\compiled.php(9676): Illuminate\View\Engines\CompilerEngine->get('C:\\websites\\lar...', Array)
+#3 C:\websites\laravel\bootstrap\compiled.php(9663): Illuminate\View\View->getContents()
+#4 C:\websites\laravel\bootstrap\compiled.php(9654): Illuminate\View\View->renderContents()
+#5 C:\websites\laravel\bootstrap\compiled.php(10355): Illuminate\View\View->render()
+#6 C:\websites\laravel\bootstrap\compiled.php(9886): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 C:\websites\laravel\bootstrap\compiled.php(5205): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 C:\websites\laravel\bootstrap\compiled.php(5013): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#9 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-09-26 10:24:38] production.ERROR: exception 'InvalidArgumentException' with message 'Route [BookController@update] not defined.' in C:\websites\laravel\bootstrap\compiled.php:5942
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(6027): Illuminate\Routing\UrlGenerator->route('BookController@...', Array, true, NULL)
+#1 C:\websites\laravel\vendor\laravel\framework\src\Illuminate\Html\FormBuilder.php(820): Illuminate\Routing\UrlGenerator->action('BookController@...')
+#2 C:\websites\laravel\vendor\laravel\framework\src\Illuminate\Html\FormBuilder.php(769): Illuminate\Html\FormBuilder->getControllerAction('BookController@...')
+#3 C:\websites\laravel\vendor\laravel\framework\src\Illuminate\Html\FormBuilder.php(104): Illuminate\Html\FormBuilder->getAction(Array)
+#4 C:\websites\laravel\bootstrap\compiled.php(3243): Illuminate\Html\FormBuilder->open(Array)
+#5 C:\websites\laravel\app\storage\views\9b310a75ae84f649248880b5386fca41(8): Illuminate\Support\Facades\Facade::__callStatic('open', Array)
+#6 C:\websites\laravel\app\storage\views\9b310a75ae84f649248880b5386fca41(8): Illuminate\Support\Facades\Form::open(Array)
+#7 C:\websites\laravel\bootstrap\compiled.php(9798): include('C:\\websites\\lar...')
+#8 C:\websites\laravel\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\websites\\lar...', Array)
+#9 C:\websites\laravel\bootstrap\compiled.php(9676): Illuminate\View\Engines\CompilerEngine->get('C:\\websites\\lar...', Array)
+#10 C:\websites\laravel\bootstrap\compiled.php(9663): Illuminate\View\View->getContents()
+#11 C:\websites\laravel\bootstrap\compiled.php(9654): Illuminate\View\View->renderContents()
+#12 C:\websites\laravel\bootstrap\compiled.php(10355): Illuminate\View\View->render()
+#13 C:\websites\laravel\bootstrap\compiled.php(9886): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#14 C:\websites\laravel\bootstrap\compiled.php(5205): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#15 C:\websites\laravel\bootstrap\compiled.php(5013): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#16 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#17 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#18 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#19 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#20 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#21 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#22 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#23 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#24 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#25 {main}
+
+Next exception 'ErrorException' with message 'Route [BookController@update] not defined. (View: C:\websites\laravel\app\views\editbook.blade.php)' in C:\websites\laravel\bootstrap\compiled.php:5942
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(9800): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(InvalidArgumentException), 1)
+#1 C:\websites\laravel\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\websites\\lar...', Array)
+#2 C:\websites\laravel\bootstrap\compiled.php(9676): Illuminate\View\Engines\CompilerEngine->get('C:\\websites\\lar...', Array)
+#3 C:\websites\laravel\bootstrap\compiled.php(9663): Illuminate\View\View->getContents()
+#4 C:\websites\laravel\bootstrap\compiled.php(9654): Illuminate\View\View->renderContents()
+#5 C:\websites\laravel\bootstrap\compiled.php(10355): Illuminate\View\View->render()
+#6 C:\websites\laravel\bootstrap\compiled.php(9886): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 C:\websites\laravel\bootstrap\compiled.php(5205): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 C:\websites\laravel\bootstrap\compiled.php(5013): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#9 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-09-26 10:26:53] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-09-26 10:27:01] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-09-26 10:27:08] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-09-26 10:33:04] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-09-26 10:33:13] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-09-26 10:33:25] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-09-26 10:35:11] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-09-26 10:45:11] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ':', expecting ',' or ';'' in C:\websites\laravel\app\storage\views\b72aea3f3d140228099b617cf3718bbf:4
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-09-26 10:45:34] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ':', expecting ',' or ';'' in C:\websites\laravel\app\storage\views\b72aea3f3d140228099b617cf3718bbf:4
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-09-26 10:45:59] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-09-26 10:47:59] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ':', expecting ',' or ';'' in C:\websites\laravel\app\storage\views\b72aea3f3d140228099b617cf3718bbf:4
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-09-26 10:48:26] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ':', expecting ',' or ';'' in C:\websites\laravel\app\storage\views\b72aea3f3d140228099b617cf3718bbf:4
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-09-26 10:48:45] production.ERROR: exception 'InvalidArgumentException' with message 'Route [newbook] not defined.' in C:\websites\laravel\bootstrap\compiled.php:5942
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(3243): Illuminate\Routing\UrlGenerator->route('newbook')
+#1 C:\websites\laravel\app\storage\views\b72aea3f3d140228099b617cf3718bbf(4): Illuminate\Support\Facades\Facade::__callStatic('route', Array)
+#2 C:\websites\laravel\app\storage\views\b72aea3f3d140228099b617cf3718bbf(4): Illuminate\Support\Facades\URL::route('newbook')
+#3 C:\websites\laravel\bootstrap\compiled.php(9798): include('C:\\websites\\lar...')
+#4 C:\websites\laravel\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\websites\\lar...', Array)
+#5 C:\websites\laravel\bootstrap\compiled.php(9676): Illuminate\View\Engines\CompilerEngine->get('C:\\websites\\lar...', Array)
+#6 C:\websites\laravel\bootstrap\compiled.php(9663): Illuminate\View\View->getContents()
+#7 C:\websites\laravel\bootstrap\compiled.php(9654): Illuminate\View\View->renderContents()
+#8 C:\websites\laravel\bootstrap\compiled.php(10355): Illuminate\View\View->render()
+#9 C:\websites\laravel\bootstrap\compiled.php(9886): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#10 C:\websites\laravel\bootstrap\compiled.php(5205): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#11 C:\websites\laravel\bootstrap\compiled.php(5013): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#12 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#13 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#14 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#15 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#16 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#17 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#18 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#19 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#20 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#21 {main}
+
+Next exception 'ErrorException' with message 'Route [newbook] not defined. (View: C:\websites\laravel\app\views\listbook.blade.php)' in C:\websites\laravel\bootstrap\compiled.php:5942
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(9800): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(InvalidArgumentException), 1)
+#1 C:\websites\laravel\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\websites\\lar...', Array)
+#2 C:\websites\laravel\bootstrap\compiled.php(9676): Illuminate\View\Engines\CompilerEngine->get('C:\\websites\\lar...', Array)
+#3 C:\websites\laravel\bootstrap\compiled.php(9663): Illuminate\View\View->getContents()
+#4 C:\websites\laravel\bootstrap\compiled.php(9654): Illuminate\View\View->renderContents()
+#5 C:\websites\laravel\bootstrap\compiled.php(10355): Illuminate\View\View->render()
+#6 C:\websites\laravel\bootstrap\compiled.php(9886): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 C:\websites\laravel\bootstrap\compiled.php(5205): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 C:\websites\laravel\bootstrap\compiled.php(5013): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#9 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-09-26 10:49:20] production.ERROR: exception 'InvalidArgumentException' with message 'Route [/newbook] not defined.' in C:\websites\laravel\bootstrap\compiled.php:5942
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(3243): Illuminate\Routing\UrlGenerator->route('/newbook')
+#1 C:\websites\laravel\app\storage\views\b72aea3f3d140228099b617cf3718bbf(4): Illuminate\Support\Facades\Facade::__callStatic('route', Array)
+#2 C:\websites\laravel\app\storage\views\b72aea3f3d140228099b617cf3718bbf(4): Illuminate\Support\Facades\URL::route('/newbook')
+#3 C:\websites\laravel\bootstrap\compiled.php(9798): include('C:\\websites\\lar...')
+#4 C:\websites\laravel\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\websites\\lar...', Array)
+#5 C:\websites\laravel\bootstrap\compiled.php(9676): Illuminate\View\Engines\CompilerEngine->get('C:\\websites\\lar...', Array)
+#6 C:\websites\laravel\bootstrap\compiled.php(9663): Illuminate\View\View->getContents()
+#7 C:\websites\laravel\bootstrap\compiled.php(9654): Illuminate\View\View->renderContents()
+#8 C:\websites\laravel\bootstrap\compiled.php(10355): Illuminate\View\View->render()
+#9 C:\websites\laravel\bootstrap\compiled.php(9886): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#10 C:\websites\laravel\bootstrap\compiled.php(5205): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#11 C:\websites\laravel\bootstrap\compiled.php(5013): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#12 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#13 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#14 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#15 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#16 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#17 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#18 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#19 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#20 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#21 {main}
+
+Next exception 'ErrorException' with message 'Route [/newbook] not defined. (View: C:\websites\laravel\app\views\listbook.blade.php)' in C:\websites\laravel\bootstrap\compiled.php:5942
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(9800): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(InvalidArgumentException), 1)
+#1 C:\websites\laravel\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\websites\\lar...', Array)
+#2 C:\websites\laravel\bootstrap\compiled.php(9676): Illuminate\View\Engines\CompilerEngine->get('C:\\websites\\lar...', Array)
+#3 C:\websites\laravel\bootstrap\compiled.php(9663): Illuminate\View\View->getContents()
+#4 C:\websites\laravel\bootstrap\compiled.php(9654): Illuminate\View\View->renderContents()
+#5 C:\websites\laravel\bootstrap\compiled.php(10355): Illuminate\View\View->render()
+#6 C:\websites\laravel\bootstrap\compiled.php(9886): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 C:\websites\laravel\bootstrap\compiled.php(5205): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 C:\websites\laravel\bootstrap\compiled.php(5013): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#9 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-09-26 10:49:59] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-09-26 10:50:17] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-09-26 10:50:28] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-09-26 10:50:51] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-09-26 10:50:54] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-09-26 10:53:20] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-09-26 10:53:24] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-09-26 10:54:16] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-09-26 10:54:38] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-09-26 10:54:52] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-09-26 10:55:00] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-09-26 10:55:08] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-09-26 10:58:45] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-11-23 04:47:24] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-11-23 04:47:38] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-11-23 04:47:47] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-11-23 05:07:57] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-11-23 05:08:40] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-11-23 05:17:42] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected end of file' in C:\websites\laravel\app\routes.php:48
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-11-23 05:18:24] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected end of file' in C:\websites\laravel\app\routes.php:48
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-11-23 05:18:39] production.ERROR: exception 'InvalidArgumentException' with message 'Route [BookController@detail] not defined.' in C:\websites\laravel\bootstrap\compiled.php:5942
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(6027): Illuminate\Routing\UrlGenerator->route('BookController@...', Array, true, NULL)
+#1 C:\websites\laravel\vendor\laravel\framework\src\Illuminate\Html\HtmlBuilder.php(185): Illuminate\Routing\UrlGenerator->action('BookController@...', Array)
+#2 C:\websites\laravel\vendor\laravel\framework\src\Illuminate\Support\helpers.php(625): Illuminate\Html\HtmlBuilder->linkAction('BookController@...', 'Detail', Array, Array)
+#3 C:\websites\laravel\app\storage\views\b72aea3f3d140228099b617cf3718bbf(36): link_to_action('BookController@...', 'Detail', Array)
+#4 C:\websites\laravel\bootstrap\compiled.php(9798): include('C:\\websites\\lar...')
+#5 C:\websites\laravel\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\websites\\lar...', Array)
+#6 C:\websites\laravel\bootstrap\compiled.php(9676): Illuminate\View\Engines\CompilerEngine->get('C:\\websites\\lar...', Array)
+#7 C:\websites\laravel\bootstrap\compiled.php(9663): Illuminate\View\View->getContents()
+#8 C:\websites\laravel\bootstrap\compiled.php(9654): Illuminate\View\View->renderContents()
+#9 C:\websites\laravel\bootstrap\compiled.php(10355): Illuminate\View\View->render()
+#10 C:\websites\laravel\bootstrap\compiled.php(9886): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#11 C:\websites\laravel\bootstrap\compiled.php(5205): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#12 C:\websites\laravel\bootstrap\compiled.php(5013): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#13 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#14 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#15 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#16 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#17 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#18 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#19 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#20 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#21 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#22 {main}
+
+Next exception 'ErrorException' with message 'Route [BookController@detail] not defined. (View: C:\websites\laravel\app\views\listbook.blade.php)' in C:\websites\laravel\bootstrap\compiled.php:5942
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(9800): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(InvalidArgumentException), 1)
+#1 C:\websites\laravel\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\websites\\lar...', Array)
+#2 C:\websites\laravel\bootstrap\compiled.php(9676): Illuminate\View\Engines\CompilerEngine->get('C:\\websites\\lar...', Array)
+#3 C:\websites\laravel\bootstrap\compiled.php(9663): Illuminate\View\View->getContents()
+#4 C:\websites\laravel\bootstrap\compiled.php(9654): Illuminate\View\View->renderContents()
+#5 C:\websites\laravel\bootstrap\compiled.php(10355): Illuminate\View\View->render()
+#6 C:\websites\laravel\bootstrap\compiled.php(9886): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 C:\websites\laravel\bootstrap\compiled.php(5205): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 C:\websites\laravel\bootstrap\compiled.php(5013): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#9 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-11-23 05:19:54] production.ERROR: exception 'InvalidArgumentException' with message 'Route [BookController@detail] not defined.' in C:\websites\laravel\bootstrap\compiled.php:5942
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(6027): Illuminate\Routing\UrlGenerator->route('BookController@...', Array, true, NULL)
+#1 C:\websites\laravel\vendor\laravel\framework\src\Illuminate\Html\HtmlBuilder.php(185): Illuminate\Routing\UrlGenerator->action('BookController@...', Array)
+#2 C:\websites\laravel\vendor\laravel\framework\src\Illuminate\Support\helpers.php(625): Illuminate\Html\HtmlBuilder->linkAction('BookController@...', 'Detail', Array, Array)
+#3 C:\websites\laravel\app\storage\views\b72aea3f3d140228099b617cf3718bbf(36): link_to_action('BookController@...', 'Detail', Array)
+#4 C:\websites\laravel\bootstrap\compiled.php(9798): include('C:\\websites\\lar...')
+#5 C:\websites\laravel\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\websites\\lar...', Array)
+#6 C:\websites\laravel\bootstrap\compiled.php(9676): Illuminate\View\Engines\CompilerEngine->get('C:\\websites\\lar...', Array)
+#7 C:\websites\laravel\bootstrap\compiled.php(9663): Illuminate\View\View->getContents()
+#8 C:\websites\laravel\bootstrap\compiled.php(9654): Illuminate\View\View->renderContents()
+#9 C:\websites\laravel\bootstrap\compiled.php(10355): Illuminate\View\View->render()
+#10 C:\websites\laravel\bootstrap\compiled.php(9886): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#11 C:\websites\laravel\bootstrap\compiled.php(5205): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#12 C:\websites\laravel\bootstrap\compiled.php(5013): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#13 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#14 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#15 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#16 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#17 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#18 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#19 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#20 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#21 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#22 {main}
+
+Next exception 'ErrorException' with message 'Route [BookController@detail] not defined. (View: C:\websites\laravel\app\views\listbook.blade.php)' in C:\websites\laravel\bootstrap\compiled.php:5942
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(9800): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(InvalidArgumentException), 1)
+#1 C:\websites\laravel\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\websites\\lar...', Array)
+#2 C:\websites\laravel\bootstrap\compiled.php(9676): Illuminate\View\Engines\CompilerEngine->get('C:\\websites\\lar...', Array)
+#3 C:\websites\laravel\bootstrap\compiled.php(9663): Illuminate\View\View->getContents()
+#4 C:\websites\laravel\bootstrap\compiled.php(9654): Illuminate\View\View->renderContents()
+#5 C:\websites\laravel\bootstrap\compiled.php(10355): Illuminate\View\View->render()
+#6 C:\websites\laravel\bootstrap\compiled.php(9886): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 C:\websites\laravel\bootstrap\compiled.php(5205): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 C:\websites\laravel\bootstrap\compiled.php(5013): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#9 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-11-23 05:20:43] production.ERROR: exception 'InvalidArgumentException' with message 'Route [BookController@detail] not defined.' in C:\websites\laravel\bootstrap\compiled.php:5942
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(6027): Illuminate\Routing\UrlGenerator->route('BookController@...', Array, true, NULL)
+#1 C:\websites\laravel\vendor\laravel\framework\src\Illuminate\Html\HtmlBuilder.php(185): Illuminate\Routing\UrlGenerator->action('BookController@...', Array)
+#2 C:\websites\laravel\vendor\laravel\framework\src\Illuminate\Support\helpers.php(625): Illuminate\Html\HtmlBuilder->linkAction('BookController@...', 'Detail', Array, Array)
+#3 C:\websites\laravel\app\storage\views\b72aea3f3d140228099b617cf3718bbf(36): link_to_action('BookController@...', 'Detail', Array)
+#4 C:\websites\laravel\bootstrap\compiled.php(9798): include('C:\\websites\\lar...')
+#5 C:\websites\laravel\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\websites\\lar...', Array)
+#6 C:\websites\laravel\bootstrap\compiled.php(9676): Illuminate\View\Engines\CompilerEngine->get('C:\\websites\\lar...', Array)
+#7 C:\websites\laravel\bootstrap\compiled.php(9663): Illuminate\View\View->getContents()
+#8 C:\websites\laravel\bootstrap\compiled.php(9654): Illuminate\View\View->renderContents()
+#9 C:\websites\laravel\bootstrap\compiled.php(10355): Illuminate\View\View->render()
+#10 C:\websites\laravel\bootstrap\compiled.php(9886): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#11 C:\websites\laravel\bootstrap\compiled.php(5205): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#12 C:\websites\laravel\bootstrap\compiled.php(5013): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#13 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#14 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#15 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#16 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#17 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#18 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#19 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#20 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#21 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#22 {main}
+
+Next exception 'ErrorException' with message 'Route [BookController@detail] not defined. (View: C:\websites\laravel\app\views\listbook.blade.php)' in C:\websites\laravel\bootstrap\compiled.php:5942
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(9800): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(InvalidArgumentException), 1)
+#1 C:\websites\laravel\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\websites\\lar...', Array)
+#2 C:\websites\laravel\bootstrap\compiled.php(9676): Illuminate\View\Engines\CompilerEngine->get('C:\\websites\\lar...', Array)
+#3 C:\websites\laravel\bootstrap\compiled.php(9663): Illuminate\View\View->getContents()
+#4 C:\websites\laravel\bootstrap\compiled.php(9654): Illuminate\View\View->renderContents()
+#5 C:\websites\laravel\bootstrap\compiled.php(10355): Illuminate\View\View->render()
+#6 C:\websites\laravel\bootstrap\compiled.php(9886): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 C:\websites\laravel\bootstrap\compiled.php(5205): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 C:\websites\laravel\bootstrap\compiled.php(5013): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#9 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-11-23 05:24:31] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-11-23 05:24:35] production.ERROR: exception 'ErrorException' with message 'Trying to get property of non-object' in C:\websites\laravel\app\storage\views\8b4ddd46b9d11bc522d0f922e587551a:13
+Stack trace:
+#0 C:\websites\laravel\app\storage\views\8b4ddd46b9d11bc522d0f922e587551a(13): Illuminate\Exception\Handler->handleError(8, 'Trying to get p...', 'C:\\websites\\lar...', 13, Array)
+#1 C:\websites\laravel\bootstrap\compiled.php(9798): include('C:\\websites\\lar...')
+#2 C:\websites\laravel\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\websites\\lar...', Array)
+#3 C:\websites\laravel\bootstrap\compiled.php(9676): Illuminate\View\Engines\CompilerEngine->get('C:\\websites\\lar...', Array)
+#4 C:\websites\laravel\bootstrap\compiled.php(9663): Illuminate\View\View->getContents()
+#5 C:\websites\laravel\bootstrap\compiled.php(9654): Illuminate\View\View->renderContents()
+#6 C:\websites\laravel\bootstrap\compiled.php(10355): Illuminate\View\View->render()
+#7 C:\websites\laravel\bootstrap\compiled.php(9886): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#8 C:\websites\laravel\bootstrap\compiled.php(5205): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#9 C:\websites\laravel\bootstrap\compiled.php(5013): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#10 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#11 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#12 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#13 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#14 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#15 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#16 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#17 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#18 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#19 {main}
+
+Next exception 'ErrorException' with message 'Trying to get property of non-object (View: C:\websites\laravel\app\views\detailbook.blade.php)' in C:\websites\laravel\app\storage\views\8b4ddd46b9d11bc522d0f922e587551a:13
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(9800): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(ErrorException), 1)
+#1 C:\websites\laravel\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\websites\\lar...', Array)
+#2 C:\websites\laravel\bootstrap\compiled.php(9676): Illuminate\View\Engines\CompilerEngine->get('C:\\websites\\lar...', Array)
+#3 C:\websites\laravel\bootstrap\compiled.php(9663): Illuminate\View\View->getContents()
+#4 C:\websites\laravel\bootstrap\compiled.php(9654): Illuminate\View\View->renderContents()
+#5 C:\websites\laravel\bootstrap\compiled.php(10355): Illuminate\View\View->render()
+#6 C:\websites\laravel\bootstrap\compiled.php(9886): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 C:\websites\laravel\bootstrap\compiled.php(5205): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 C:\websites\laravel\bootstrap\compiled.php(5013): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#9 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-11-23 05:24:45] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-11-23 05:25:33] production.ERROR: exception 'ErrorException' with message 'Trying to get property of non-object' in C:\websites\laravel\app\storage\views\8b4ddd46b9d11bc522d0f922e587551a:13
+Stack trace:
+#0 C:\websites\laravel\app\storage\views\8b4ddd46b9d11bc522d0f922e587551a(13): Illuminate\Exception\Handler->handleError(8, 'Trying to get p...', 'C:\\websites\\lar...', 13, Array)
+#1 C:\websites\laravel\bootstrap\compiled.php(9798): include('C:\\websites\\lar...')
+#2 C:\websites\laravel\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\websites\\lar...', Array)
+#3 C:\websites\laravel\bootstrap\compiled.php(9676): Illuminate\View\Engines\CompilerEngine->get('C:\\websites\\lar...', Array)
+#4 C:\websites\laravel\bootstrap\compiled.php(9663): Illuminate\View\View->getContents()
+#5 C:\websites\laravel\bootstrap\compiled.php(9654): Illuminate\View\View->renderContents()
+#6 C:\websites\laravel\bootstrap\compiled.php(10355): Illuminate\View\View->render()
+#7 C:\websites\laravel\bootstrap\compiled.php(9886): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#8 C:\websites\laravel\bootstrap\compiled.php(5205): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#9 C:\websites\laravel\bootstrap\compiled.php(5013): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#10 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#11 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#12 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#13 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#14 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#15 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#16 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#17 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#18 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#19 {main}
+
+Next exception 'ErrorException' with message 'Trying to get property of non-object (View: C:\websites\laravel\app\views\detailbook.blade.php)' in C:\websites\laravel\app\storage\views\8b4ddd46b9d11bc522d0f922e587551a:13
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(9800): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(ErrorException), 1)
+#1 C:\websites\laravel\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\websites\\lar...', Array)
+#2 C:\websites\laravel\bootstrap\compiled.php(9676): Illuminate\View\Engines\CompilerEngine->get('C:\\websites\\lar...', Array)
+#3 C:\websites\laravel\bootstrap\compiled.php(9663): Illuminate\View\View->getContents()
+#4 C:\websites\laravel\bootstrap\compiled.php(9654): Illuminate\View\View->renderContents()
+#5 C:\websites\laravel\bootstrap\compiled.php(10355): Illuminate\View\View->render()
+#6 C:\websites\laravel\bootstrap\compiled.php(9886): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 C:\websites\laravel\bootstrap\compiled.php(5205): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 C:\websites\laravel\bootstrap\compiled.php(5013): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#9 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-11-23 05:26:02] production.ERROR: exception 'ErrorException' with message 'Undefined variable: book' in C:\websites\laravel\app\storage\views\8b4ddd46b9d11bc522d0f922e587551a:12
+Stack trace:
+#0 C:\websites\laravel\app\storage\views\8b4ddd46b9d11bc522d0f922e587551a(12): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', 'C:\\websites\\lar...', 12, Array)
+#1 C:\websites\laravel\bootstrap\compiled.php(9798): include('C:\\websites\\lar...')
+#2 C:\websites\laravel\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\websites\\lar...', Array)
+#3 C:\websites\laravel\bootstrap\compiled.php(9676): Illuminate\View\Engines\CompilerEngine->get('C:\\websites\\lar...', Array)
+#4 C:\websites\laravel\bootstrap\compiled.php(9663): Illuminate\View\View->getContents()
+#5 C:\websites\laravel\bootstrap\compiled.php(9654): Illuminate\View\View->renderContents()
+#6 C:\websites\laravel\bootstrap\compiled.php(10355): Illuminate\View\View->render()
+#7 C:\websites\laravel\bootstrap\compiled.php(9886): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#8 C:\websites\laravel\bootstrap\compiled.php(5205): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#9 C:\websites\laravel\bootstrap\compiled.php(5013): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#10 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#11 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#12 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#13 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#14 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#15 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#16 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#17 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#18 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#19 {main}
+
+Next exception 'ErrorException' with message 'Undefined variable: book (View: C:\websites\laravel\app\views\detailbook.blade.php)' in C:\websites\laravel\app\storage\views\8b4ddd46b9d11bc522d0f922e587551a:12
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(9800): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(ErrorException), 1)
+#1 C:\websites\laravel\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\websites\\lar...', Array)
+#2 C:\websites\laravel\bootstrap\compiled.php(9676): Illuminate\View\Engines\CompilerEngine->get('C:\\websites\\lar...', Array)
+#3 C:\websites\laravel\bootstrap\compiled.php(9663): Illuminate\View\View->getContents()
+#4 C:\websites\laravel\bootstrap\compiled.php(9654): Illuminate\View\View->renderContents()
+#5 C:\websites\laravel\bootstrap\compiled.php(10355): Illuminate\View\View->render()
+#6 C:\websites\laravel\bootstrap\compiled.php(9886): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 C:\websites\laravel\bootstrap\compiled.php(5205): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 C:\websites\laravel\bootstrap\compiled.php(5013): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#9 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-11-23 05:26:26] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-11-23 05:26:38] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-11-23 05:29:41] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-11-23 05:30:01] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-11-23 05:30:59] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-11-23 05:31:28] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-11-23 05:36:34] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-11-23 05:36:45] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-11-23 05:40:17] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-11-23 11:54:29] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-15 03:31:56] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-15 03:32:07] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-15 03:32:18] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-15 03:32:31] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-15 03:32:45] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-15 03:34:10] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-15 03:37:30] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-15 03:38:18] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-15 03:39:15] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-15 03:39:26] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-15 03:39:38] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-15 03:44:24] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-15 03:46:05] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-15 05:11:51] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-15 05:11:54] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-15 05:12:04] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\websites\laravel\bootstrap\compiled.php:5702
+Stack trace:
+#0 C:\websites\laravel\bootstrap\compiled.php(5019): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\websites\laravel\bootstrap\compiled.php(5007): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\websites\laravel\bootstrap\compiled.php(4999): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\websites\laravel\bootstrap\compiled.php(722): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\websites\laravel\bootstrap\compiled.php(703): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\websites\laravel\bootstrap\compiled.php(7763): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\websites\laravel\bootstrap\compiled.php(8370): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\websites\laravel\bootstrap\compiled.php(8317): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\websites\laravel\bootstrap\compiled.php(10955): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\websites\laravel\bootstrap\compiled.php(664): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\websites\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []

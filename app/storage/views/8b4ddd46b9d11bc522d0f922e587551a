@@ -1,0 +1,33 @@
+<!-- secara otomatis extends file layout blade -->
+
+<?php $__env->startSection('content'); ?>
+	<div class='container'>
+	 
+	 <h3>Detail Buku</h3><br/>
+
+	 <table class="table">
+	 	<tr>
+	 		<td><b>Kode Buku</b></td>
+	 		<td>:</td>
+	 		<td><?php echo $book->kode_buku; ?></td>
+	 	</tr>
+	 	<tr>
+	 		<td><b>Judul Buku</b></td>
+	 		<td>:</td>
+	 		<td><?php echo $book->judul_buku; ?></td>
+	 	</tr>
+	 	<tr>
+	 		<td><b>Pengarang</b></td>
+	 		<td>:</td>
+	 		<td><?php echo $book->pengarang; ?></td>
+	 	</tr>
+	 	<tr>
+	 		<td><b>Deskripsi Buku</b></td>
+	 		<td>:</td>
+	 		<td><?php echo $book->deskripsi; ?></td>
+	 	</tr>
+	 </table>
+
+	</div>
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('layout', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

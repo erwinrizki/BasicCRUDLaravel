@@ -1,0 +1,50 @@
+<?php $__env->startSection('content'); ?>
+
+<section class="container">
+ <!-- cek flash data untuk memunculkan pesan success -->
+	 <?php if(Session::has('message')): ?>
+		<div class="alert alert-dismissable alert-success">
+			<button type="button" class="close" data-dismiss="alert">x</button>
+			<p><?php echo Session::get('message'); ?></p>
+		</div>
+	 <?php endif; ?>
+	 
+	 <?php if(Session::has('update')): ?>
+		<div class="alert alert-dismissable alert-success">
+			<button type="button" class="close" data-dismiss="alert">x</button>
+			<p><?php echo Session::get('update'); ?></p>
+		</div>
+	 <?php endif; ?>
+	 
+ <a href="<?php echo URL::to('newbook'); ?>"><h3>Tambah Buku</h3></a><br/> <!-- membuat link ke route newbook -->
+ <table class="table">
+    <tr>
+	   <th>No</th>
+       <th>Kode Buku</th>
+       <th>Judul Buku</th>
+       <th>Pengarang</th>
+	   <th>Aksi</th>
+    </tr>
+	<?php $no = 1; ?>
+    <?php foreach($booksdata as $book): ?>
+      <tr>
+	     <td><?php echo $no; ?></td>
+         <td><?php echo $book->kode_buku; ?></td>
+         <td><?php echo $book->judul_buku; ?></td>
+         <td><?php echo $book->pengarang; ?></td>
+		 <td>
+		 	<?php echo link_to_action('BookController@detail', 'Detail', array($book->id)); ?>
+
+			<?php echo link_to_action('BookController@edit', 'Edit', array($book->id)); ?>
+
+			<?php echo link_to_action('BookController@delete', 'Hapus', array($book->id)); ?>
+
+		</td>
+      </tr>
+	<?php $no++; ?>
+    <?php endforeach; ?>
+ </table>
+</section>
+
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('layout', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

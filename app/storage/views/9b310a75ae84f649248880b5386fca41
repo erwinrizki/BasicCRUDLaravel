@@ -1,0 +1,51 @@
+<!-- secara otomatis extends file layout blade -->
+
+<?php $__env->startSection('content'); ?>
+	<div class='container'>
+	 
+	 <h3>Tambah Buku Baru</h3><br/>
+
+	 <?php echo Form::open(array('action' => 'BookController@update')); ?>
+
+	 
+	 <?php echo Form::hidden('id', $book->id); ?>
+
+	 
+	 <?php echo Form::label('kode', 'Kode Buku'); ?>
+
+	 
+	 <?php echo Form::text('kode', $book->kode_buku, array('class' => 'form-control')); ?>
+
+	 
+	 <?php echo Form::label('judul', 'Judul Buku'); ?>
+
+
+	 <?php echo Form::text('judul', $book->judul_buku, array('class' => 'form-control')); ?>
+
+
+	 <?php echo Form::label('pengarang', 'Pengarang Buku'); ?>
+
+
+	 <?php echo Form::text('pengarang', $book->pengarang, array('class' => 'form-control')); ?>
+
+
+	 <?php echo Form::label('deskripsi', 'Deskripsi Buku'); ?>
+
+
+	 <?php echo Form::textarea('deskripsi', $book->deskripsi, array('class' => 'form-control')); ?>
+
+	 
+	 <br/><br/>
+
+	 <?php echo Form::submit('Update', array('class' => 'btn btn-primary')); ?>
+
+	 
+	 <?php echo Form::reset('Reset', array('class' => 'btn btn-primary')); ?>
+
+
+	 <?php echo Form::close(); ?>
+
+
+	</div>
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('layout', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
